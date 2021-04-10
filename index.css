@@ -1,0 +1,332 @@
+body{
+    background-color: rgb(158, 158, 158) ;
+}
+
+#two{
+    background-image: url(images/b.jpg);
+    background-position: center;
+    background-size: 50%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+div.formu {
+    display: table-row;
+}
+
+label, input {
+    display: table-row;
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+label.blanc {
+    color: white;
+    padding-right: 10px;
+}
+
+h1.blanc {
+    color: white;
+    padding-right: 10px;
+}
+
+p.blanco {
+    color:rgb(210, 210, 210);
+}
+
+.vert {
+    color: rgb(9, 255, 6);
+}
+
+.rouge {
+    color:rgba(238, 16, 16, 0.979);
+}
+
+
+fieldset.infos
+{
+    background-color: rgb(220, 220, 220);
+    width:330px;
+    height:120px;
+	border:1px solid black;
+	background-image: url(images/two.png);
+    background-position: center;
+    background-size: 100%;
+
+}
+
+fieldset.result
+{
+    background-color: rgb(235, 235, 235);
+    width:350px;
+    height:66px;
+	border:1px solid black;
+
+}
+
+fieldset.tour
+{
+    background-color: rgb(235, 235, 235);
+    width:66px;
+    height:66px;
+	border:1px solid black;
+
+}
+
+.btn_droite {
+    width: 90px;
+    font-weight: bold;
+    background-color: rgb(210, 210, 210);
+    position:relative;
+    left:80%;
+    cursor: pointer;
+    border-radius: 3px;
+   }
+.btn_droite_dessous {
+width: 90px;
+font-weight: bold;
+background-color: rgb(210, 210, 210);
+position:relative;
+left:130%;
+cursor: pointer;
+border-radius: 3px;
+}
+
+.gray {
+    width: 45px;
+    font-weight: bold;
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+    border-radius: 3px;
+    }
+
+.grayy {
+    width: 50px;
+    font-weight: bold;
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+    .gray2 {
+        width: 70px;
+        font-weight: bold;
+        background-color: rgb(210, 210, 210);
+        cursor: pointer;
+        border-radius: 3px;
+        }
+    .commencer {
+        width: 95px;
+        font-weight: bold;
+        background-color: rgb(210, 210, 210);
+        cursor: pointer;
+        border-radius: 3px;
+        }
+    .grayRetour {
+        width: 140px;
+        font-weight: bold;
+        background-color: rgb(210, 210, 210);
+        cursor: pointer;
+        border-radius: 3px;
+        }
+
+    .gray:hover {
+    background-color: rgb(180, 180, 180);
+    }
+
+.grayy:hover {
+    background-color: rgb(180, 180, 180);
+}
+    .gray2:hover {
+        background-color: rgb(180, 180, 180);
+        }
+    .commencer:hover {
+        background-color: rgb(180, 180, 180);
+        }
+
+    .grayRetour:hover {
+    background-color: rgb(160, 160, 160);
+    }
+    .btn_droite:hover {
+    background-color: rgb(180, 180, 180);
+    }
+    .btn_droite_dessous:hover {
+        background-color: rgb(180, 180, 180);
+    }
+
+    .title{
+        position:relative;
+        text-align:center;
+        font-size: 350%;
+        color: purple;
+        text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+    }
+    .title::before{
+        content:"";
+        position:absolute;
+        top:50%;
+        left:0;
+        width:100%;
+        height:2px;
+        z-index:-1;
+    }
+    .title span{
+        padding:4px 8px;
+    }
+
+    .titl{
+        position:relative;
+        font-weight: bold;
+        color: rgb(112, 190, 243);
+    }
+    .transp{
+        color: rgb(210, 210, 210, 0);
+    }
+
+    #consignes{
+        margin-left: 30px;
+        color: white;
+    }
+
+    #score{
+        color: white;
+    }
+
+    .russe {
+        color: rgb(235, 75, 75);
+        font-size: medium;
+    }
+
+    .francais {
+        color: rgb(109, 121, 228);
+        font-size: medium;
+    }
+
+    .russeTitre {
+        font-weight: bold;
+        color: rgb(235, 75, 75);
+        font-size: large;
+    }
+    .francaisTitre {
+        font-weight: bold;
+        color: rgb(109, 121, 228);
+        font-size: large;
+    }
+
+    .styled {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgb(101, 169, 247);
+        background-image: linear-gradient(to top left,
+                                          rgba(0, 0, 0, .2),
+                                          rgba(0, 0, 0, .2) 30%,
+                                          rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+        width: 150px;
+        margin:5px;
+    }
+
+    .styled:hover {
+        background-color: rgb(157, 203, 247);
+    }
+
+    .styled:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+
+
+    .styledArret {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(255, 0, 0, 1);
+        background-image: linear-gradient(to top left,
+                                          rgba(0, 0, 0, .2),
+                                          rgba(0, 0, 0, .2) 30%,
+                                          rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+        margin:20px;
+    }
+
+    .styledArret:hover {
+        background-color: rgb(253, 97, 97);
+    }
+
+    .styledArret:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+
+    table {
+        /*border: medium solid #292929;*/
+        border-collapse: collapse;
+        /* width: 100%; */
+        }
+        th {
+        /*font-family: monospace;*/
+        border: medium solid rgb(0, 0, 0);
+        /* padding: 5px; */
+        background-color: #292929;
+        color:rgba(0, 0, 0, 0);
+        width:112px;
+        height:112px;
+        }
+        td {
+        font-family: sans-serif;
+        border: medium solid rgb(0, 0, 0);
+        /* padding: 5px; */
+        text-align: center;
+        background-color: #3b3b3b;
+        color:rgba(0, 0, 0, 0);
+        width:112px;
+        height:112px;
+        background-image: url(images/carte.png);
+        }
+        caption {
+        font-family: sans-serif;
+        color:white;
+        }
+
+
+.click{
+    cursor:pointer;
+}
+.click:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+
+.thtransp{
+    background-color: rgba(0, 0, 0, 0);
+    border: thin solid rgba(0, 0, 0, 0);
+}
